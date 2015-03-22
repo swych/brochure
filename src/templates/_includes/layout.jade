@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        title Swych
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible",content="IE=edge")
+        meta(name="viewport",content="width=device-width, initial-scale=1")
+        link(href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic',rel='stylesheet',type='text/css')
+        link(rel="stylesheet",type="text/css",href="styles/lib.min.css")
+        link(rel="stylesheet",type="text/css",href="styles/app.min.css")
+    body
+        section#header.container
+            h1.clearfix Swych
+        block content
+        script(src='scripts/lib.min.js',type='text/javascript')
+        //script(src='templates/templates.js',type='text/javascript')
+        script(src='scripts/app.js',type='text/javascript')
+        include ./analytics.html

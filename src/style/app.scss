@@ -1,0 +1,25 @@
+@mixin pill{
+  border-radius:4px;
+  background:#333;
+  color:#fff;
+  margin:5px;
+  padding:5px;
+}
+
+// web
+
+.clearfloat:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3{font-weight: normal;}
+
+h1,h2{text-align: center;margin:0;}
