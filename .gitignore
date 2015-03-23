@@ -38,3 +38,4 @@ credentials/
 mocks/
 build/
 .ftppass
+.DS_Store
