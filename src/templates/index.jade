@@ -1,4 +1,13 @@
 extends ./_includes/layout.jade
 block content
     section#content.container
-        h2 Text my house
+        p.lead Swych is the simple piece of home hardware that can turn any appliance you have into a smart device. Control your entire smart home via your smartphone.
+        include:md _docs/what.md
+        hr
+        include:md _docs/foreveryone.md
+        hr
+        include:md _docs/qanda.md
+        hr
+        include:md _docs/future.md
+        div.tell-me-wrapper
+            a.tell-me(href='mailto:yes@swych.io') Alright already, I want to know more
